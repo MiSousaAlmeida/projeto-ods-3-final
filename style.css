@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script & display=swap');
+html,body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header{
+    background-color:#c0392b;
+    color: white;
+    height: 70px;
+    width: 100%;
+}
+
+#logo{
+    width: 96px;
+    position: absolute;
+    top: 10px;
+    margin-left: 7%;
+}
+
+#imagem_fundo{
+    background: url("img/imagem-fundo.jpg");
+    height: 100%;
+    background-size: cover; 
+}
+
+#Menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 10px 20px 10px 20px;
+}
+li:hover{
+    background-color:rgb(190, 109, 109);
+}
+
+#titulo{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+#subtitulo{
+    color: rgb(243, 201, 201);
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    
+}
+
+.btn-youtube{
+    background-color:rgb(180, 70, 70);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 1%;      
+}
+
+.btn-youtube:hover {
+    background-color: rgb(190, 109, 109);
+}
+
+.container {
+    text-align: center;
+  }
+
+.icone{
+    width: 150px;
+}
+
+#projeto{
+    background-color: #f7f7f7;
+    padding: 20px;
+
+}
+#selecao{
+    padding:30px;
+    float: left;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    padding-top: 3%;
+    width: 40%;
+}
+
+.colunatres{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 20%;
+    text-align: center;
+}
+
+.colunacinco{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 10%;
+}
+    
+.justificado{
+    text-align: justify;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+#selecao2{
+    padding:30px;
+    float: left;
+}
+
+#Sobre{
+    width: 100%;
+}
+
+#creditos{
+    background-color:#c0392b;
+    float: left;
+}
+
+@media all and (max-width:768px) {
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .colunatres, .colunacinco {
+        display:block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float:none;
+    }
+}
+
+#logodiv{
+    width: 100%;
+    position: relative;
+    text-align: center;
+
+#logo{
+    margin-left: 0%;
+    transform: translateX(-50%);
+}    
+}
+
+
+   
+
