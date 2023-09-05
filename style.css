@@ -38,6 +38,17 @@ li:hover{
     background-color:rgb(190, 109, 109);
 }
 
+ul{
+    display:flex;
+    justify-content:space-between;
+    list-style-type:none;
+    align-items:center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 #titulo{
     color: white;
     font-size: 60px;
